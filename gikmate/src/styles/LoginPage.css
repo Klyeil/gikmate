@@ -1,0 +1,195 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+  }
+
+  .login-input {
+    width: 400px;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 340px; /* form-container 폭 제한 */
+    margin: 0 auto; /* 중앙 정렬 */
+    display: flex;
+    flex-direction: column;
+  }
+  .login-box {
+    background-color: #2a2a2a; /* 카드 배경 */
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%; /* form-container 내에서 100% */
+    padding: 12px;
+    margin: 15px 0;
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .input-field::placeholder {
+    color: #888;
+  }
+  
+  .password-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+    color: #b0b0b0;
+  }
+  
+  .options a {
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .options a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-statue {
+    display: flex;
+    align-content: center;
+    gap: 5px;
+  }
+
+
+
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+  
+  .login-button:hover {
+    background-color: #333;
+  }
+  
+  .sns-login {
+    margin: 20px 0;
+  }
+  
+  .sns-login p {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+  }
+  
+  .sns-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .sns-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .naver {
+    background-color: #03c75a;
+    color: #ffffff;
+  }
+  
+  .kakao {
+    background-color: #fee500;
+    color: #000000;
+  }
+  
+  .apple {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .signup-link {
+    font-size: 14px;
+    color: #b0b0b0;
+  }
+  
+  .login-help {
+    display: flex;
+    justify-content : space-between;
+  }
+
+  .signup-link a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .login-statue {
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+
+  .forget-link {
+    font-size: 14px;
+    color: #b0b0b0;
+  }
+  .forget-link a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }

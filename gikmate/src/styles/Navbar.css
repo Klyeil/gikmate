@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #2a2a2a; /* 로그인 페이지 박스와 동일 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .gik-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* 흰색 텍스트 */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-right {
+    display: flex;
+    gap: 18px;
+  }
+  
+  .nav-button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff; /* 흰색 텍스트 */
+    cursor: pointer;
+    text-decoration: none;
+    gap: 7px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    color: #b0b0b0; /* 호버 시 회색 */
+  }
+  
+  .login-link,
+  .logout-link {
+    transition: color 0.3s ease;
+  }
+  
+  .login-link:hover,
+  .logout-link:hover {
+    color: #b0b0b0; /* 호버 시 회색 */
+  }
+  
+  .login-icon {
+    font-size: 20px;
+  }
